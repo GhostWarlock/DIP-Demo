@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogLogin</class>
+ <widget class="QDialog" name="DialogLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="LoginBackGround">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/LoginUi/prefix1/Resource/LoginUi/LoginBackGround.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LoginDIP">
+   <property name="geometry">
+    <rect>
+     <x>133</x>
+     <y>111</y>
+     <width>43</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>43</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>43</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/LoginUi/prefix1/Resource/LoginUi/DIP.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LoginUserName">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>184</y>
+     <width>140</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>140</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>140</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 255), stop:0.373979 rgba(255, 255, 255, 255), stop:0.373991 rgba(33, 30, 255, 255), stop:0.624018 rgba(33, 30, 255, 255), stop:0.624043 rgba(255, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));
+font-size:12px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LoginInf1">
+   <property name="geometry">
+    <rect>
+     <x>272</x>
+     <y>184</y>
+     <width>45</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>45</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>45</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font-size:15px;</string>
+   </property>
+   <property name="text">
+    <string>用户名</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LoginInf2">
+   <property name="geometry">
+    <rect>
+     <x>272</x>
+     <y>216</y>
+     <width>45</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>45</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>45</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font-size:15px;</string>
+   </property>
+   <property name="text">
+    <string>密  码</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LoginPSWD">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>216</y>
+     <width>140</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>140</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>140</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 255), stop:0.373979 rgba(255, 255, 255, 255), stop:0.373991 rgba(33, 30, 255, 255), stop:0.624018 rgba(33, 30, 255, 255), stop:0.624043 rgba(255, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));
+font-size:12px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtLOGIN">
+   <property name="geometry">
+    <rect>
+     <x>389</x>
+     <y>280</y>
+     <width>80</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 0);
+font-size:16px;
+</string>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtLoginRegister">
+   <property name="geometry">
+    <rect>
+     <x>272</x>
+     <y>280</y>
+     <width>80</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 255, 255);
+background-color: rgb(255, 255, 255);
+font-size:16px;</string>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="LoginRemb">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>248</y>
+     <width>140</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>140</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>140</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="tabletTracking">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font-size:15px;</string>
+   </property>
+   <property name="text">
+    <string>记住密码？</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>10</width>
+     <height>10</height>
+    </size>
+   </property>
+   <property name="tristate">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="ButtLoginClose">
+   <property name="geometry">
+    <rect>
+     <x>575</x>
+     <y>10</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="toolTip">
+    <string>关闭</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/LoginUi/prefix1/Resource/LoginUi/LoginClose.png</normaloff>:/LoginUi/prefix1/Resource/LoginUi/LoginClose.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>15</width>
+     <height>15</height>
+    </size>
+   </property>
+   <property name="autoRaise">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="ButtLoginMin">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>10</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string>最小化</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/LoginUi/prefix1/Resource/LoginUi/LoginMin.png</normaloff>:/LoginUi/prefix1/Resource/LoginUi/LoginMin.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>15</width>
+     <height>15</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>LoginBackGround</zorder>
+  <zorder>LoginDIP</zorder>
+  <zorder>LoginUserName</zorder>
+  <zorder>LoginInf1</zorder>
+  <zorder>LoginInf2</zorder>
+  <zorder>LoginPSWD</zorder>
+  <zorder>ButtLOGIN</zorder>
+  <zorder>ButtLoginRegister</zorder>
+  <zorder>ButtLoginClose</zorder>
+  <zorder>ButtLoginMin</zorder>
+  <zorder>LoginRemb</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>LoginUserName</tabstop>
+  <tabstop>LoginPSWD</tabstop>
+  <tabstop>LoginRemb</tabstop>
+  <tabstop>ButtLOGIN</tabstop>
+  <tabstop>ButtLoginRegister</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>ButtLoginClose</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogLogin</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>582</x>
+     <y>17</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

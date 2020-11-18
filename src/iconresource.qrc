@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Resource">
+        <file>C:/Users/Administrator/Desktop/Software Project/Application Design/SensorStudio/Resource/CloseFile.png</file>
+        <file>C:/Users/Administrator/Desktop/Software Project/Application Design/SensorStudio/Resource/OpenFile.png</file>
+        <file>C:/Users/Administrator/Desktop/Software Project/Application Design/SensorStudio/Resource/SaveFile.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,49 @@
+<RCC>
+    <qresource prefix="/LoginUi/prefix1">
+        <file>Resource/LoginUi/LoginBackGround.png</file>
+        <file>Resource/LoginUi/DIP.png</file>
+        <file>Resource/LoginUi/LoginMin.png</file>
+        <file>Resource/LoginUi/LoginClose.png</file>
+        <file>Resource/Icon.png</file>
+        <file>Resource/教学模块.png</file>
+        <file>Resource/个人设计.png</file>
+        <file>Resource/EduFunc/NewFile.png</file>
+        <file>Resource/EduFunc/OpenFile.png</file>
+        <file>Resource/EduFunc/Redo.png</file>
+        <file>Resource/EduFunc/RemoveFile.png</file>
+        <file>Resource/EduFunc/SaveFile.png</file>
+        <file>Resource/EduFunc/Undo.png</file>
+        <file>Resource/EduFunc/Enlarge.png</file>
+        <file>Resource/EduFunc/Shrink.png</file>
+        <file>Resource/EduFunc/Brush.png</file>
+        <file>Resource/EduFunc/Cut.png</file>
+        <file>Resource/EduFunc/H Move.png</file>
+        <file>Resource/EduFunc/Histogram.png</file>
+        <file>Resource/EduFunc/Horizontal.png</file>
+        <file>Resource/EduFunc/MirrorVertically.png</file>
+        <file>Resource/EduFunc/Mosaic.png</file>
+        <file>Resource/EduFunc/PixelData.png</file>
+        <file>Resource/EduFunc/Size.png</file>
+        <file>Resource/EduFunc/Spin.png</file>
+        <file>Resource/EduFunc/Equalization.png</file>
+        <file>Resource/EduFunc/Gamma.png</file>
+        <file>Resource/EduFunc/ImageEnhancement.png</file>
+        <file>Resource/EduFunc/Log.png</file>
+        <file>Resource/EduFunc/LsTransform.png</file>
+        <file>Resource/EduFunc/LeastSquare.png</file>
+        <file>Resource/EduFunc/GeometricMean.png</file>
+        <file>Resource/EduFunc/Wiener.png</file>
+        <file>Resource/SourcesCode/HistogramCode.txt</file>
+        <file>Resource/EduFunc/VerticalSize.png</file>
+        <file>Resource/EduFunc/HorizontalSize.png</file>
+        <file>Resource/EduFunc/LightIntensity.png</file>
+        <file>Resource/EduFunc/Saturation.png</file>
+        <file>Resource/EduFunc/Warm.png</file>
+        <file>Resource/EduFunc/Cold.png</file>
+        <file>Resource/EduFunc/Fuzzy.png</file>
+        <file>Resource/EduFunc/Sharpen.png</file>
+        <file>Resource/EduFunc/Gray.png</file>
+        <file>Resource/EduFunc/Paint.png</file>
+        <file>Resource/EduFunc/Color.png</file>
+    </qresource>
+</RCC>
